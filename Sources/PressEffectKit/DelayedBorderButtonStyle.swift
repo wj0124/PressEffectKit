@@ -74,7 +74,8 @@ struct DelayedBorderTestPreview: View {
                             borderColor: .blue,
                             borderWidth: 2,
                             cornerRadius: 8,
-                            padding: 8
+                            padding: EdgeInsets(top: 10, leading: 10, bottom: 10, trailing: 10)
+                           
                         )
                     )
                 )
